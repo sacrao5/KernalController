@@ -149,6 +149,7 @@ if __name__ == "__main__":
         "y_increment": 4,
         "x_increment": 8,
     }
+    
     result = handle_incoming_data(method_name, scope_raw_data, options)
     print(result)
     
